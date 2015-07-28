@@ -1,0 +1,25 @@
+.shop-item {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding-left: 10px;
+	font-size: 20px;
+	font-family: "Comic Sans MS";
+	
+}
+
+
+.thief {
+	background: url('img/robber.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	cursor: pointer;
+}
+.thief::before{
+	content: "auto pepe thief \A \A \A Cost: 30 pepe";
+	
+}
+.thief:hover::before {
+	content: "Thief for to steal auto pepe:	1 pepe / second";
+	background: #63C914;
+}
+
